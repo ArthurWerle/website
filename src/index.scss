@@ -19,10 +19,16 @@ code {
     monospace;
 }
 
+$color-primary: #835afd;
+$color-title: #811ae0;
+$color-secondary: #5afd83;
+$color-tertiary: #fd835a;
+$color-quartenary: #D4FD5A;
+
 a {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
-  color: #fa8072
+  color: $color-quartenary;
 }
 
 .main {
@@ -48,13 +54,17 @@ a {
 
 .paragraph {
   margin: 0;
-  color: #835afd;
+  color: $color-primary;
   font-size: 18px;
+
+  &--emphasis {
+    color: $color-secondary;
+  }
 }
 
 .title {
   font-weight: 900;
-  color: #835afd;
+  color: $color-title;
   font-size: 30px;
   margin: 0;
 
@@ -71,4 +81,9 @@ a {
   display: flex;
   flex-direction: column;
   gap: 20px;
+
+  a {
+    margin-right: 10px;
+    margin-left: 5px;
+  }
 }
