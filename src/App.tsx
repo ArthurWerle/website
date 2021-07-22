@@ -1,7 +1,24 @@
 import React from 'react';
+import { useEffect } from 'react';
+import { useState } from 'react';
 import BackgroundParticles from './components/particles/BackgroundParticles';
 
 function App() {
+  const [age, setAge] = useState(0);
+
+  function getAge() {
+    const birth = new Date('07/06/1998');
+    const today = new Date();
+
+    const diff = new Date(Math.abs(today - birth));
+
+    return Math.abs(diff.getUTCFullYear() - 1970);
+  }
+
+  useEffect(() => {
+    setAge(getAge);
+  }, []);
+
   return (
     <div className="main">
       <div className="resume">
@@ -11,8 +28,10 @@ function App() {
         </div>
       </div>
       <div className="info">
-        <p className="title">Work experience.</p> 
-        <p className="paragraph">A lot.</p> 
+        <div>
+          <p className="title">About me</p> 
+          <p className="paragraph">I'm {age} years old.</p> 
+        </div>
       </div>
       <BackgroundParticles />
     </div>
