@@ -26,11 +26,11 @@ function App() {
           <span className="paragraph--emphasis"> Just tools </span>
           And every language is good to solve 
     specific problems. So I don't have any problem with working or learning another ones.
-    I'm a visual person, so I don't think about stop working with frontend, but I
+    I'm a visual person, so for now, I don't think about stop working with frontend, but I
     consider being a full-stack developer, because I want to learn al least one backend
     driven language, maybe Python. I'm also very curious about mobile development. I've done some
     personal projects with ReactNative, but I'm sure that a professional experience with it would be great.
-    I want to make life easier, happier and simpler to people.
+    <span className="paragraph--emphasis"> I want to make life easier, happier and simpler to people. </span>
           </p> 
         </div>
         <div>
