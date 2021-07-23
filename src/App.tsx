@@ -16,6 +16,7 @@ function App() {
           <p className="title title--large">I'm Arthur Werle.</p> 
           <p className="title title--large title--spaced">I'm a Software Developer.</p>
           <p className="title">Feel free to contact me.</p>
+          <p className="title">Mostly to drink a coffee. ☕</p>
           <div className="social">
             <a target="_blank" rel="noreferrer" title="Instagram" href="https://www.instagram.com/werlearthur/">
               <img src={instagramImg} alt="Instagram"/>
@@ -31,6 +32,9 @@ function App() {
             </a>
             <a target="_blank" rel="noreferrer" title="Whatsapp" href="https://wa.me/5551991873768?text=Hey there! I just got your number on your website.">
               <img src={whatsappImg} alt="Whatsapp"/>
+            </a>
+            <a className="button" title="Curriculum" href="/arthur-resume.pdf" download target="_blank" rel="noreferrer">
+              <p>Download my resume</p>
             </a>
           </div>
         </div>

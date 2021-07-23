@@ -24,16 +24,27 @@ p {
 }
 
 $color-primary: #9471fd;
-$color-secondary: #fcf26f;
-$color-tertiary: #ff8147;
-$color-quartenary: #fd7462;
+$color-secondary: #ff8147;
+$color-tertiary: #fcf26f;
 
 $color-title: $color-primary;
 
 .link {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
-  color: $color-quartenary;
+  color: $color-secondary;
+}
+
+.button {
+  background-color: $color-primary;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+
+  &:hover {
+    filter: brightness(80%);
+  }
 }
 
 .main {
