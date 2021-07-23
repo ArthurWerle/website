@@ -33,9 +33,6 @@ function App() {
             <a target="_blank" rel="noreferrer" title="Whatsapp" href="https://wa.me/5551991873768?text=Hey there! I just got your number on your website.">
               <img src={whatsappImg} alt="Whatsapp"/>
             </a>
-            <a className="button" title="Curriculum" href="/arthur-resume.pdf" download target="_blank" rel="noreferrer">
-              <p>Download my resume</p>
-            </a>
           </div>
         </div>
       </div>
@@ -80,6 +77,9 @@ function App() {
               </p>
             </p>
           </div>
+          <a className="button" title="Curriculum" href="/arthur-resume.pdf" download target="_blank" rel="noreferrer">
+            <p>Download my resume</p>
+          </a>
         </div>
       </div>
       <BackgroundParticles />
