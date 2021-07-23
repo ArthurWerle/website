@@ -19,13 +19,18 @@ code {
     monospace;
 }
 
-$color-primary: #835afd;
-$color-title: #811ae0;
-$color-secondary: #5afd83;
-$color-tertiary: #fd835a;
-$color-quartenary: #D4FD5A;
+p {
+  margin: 0;
+}
 
-a {
+$color-primary: #9471fd;
+$color-secondary: #fcf26f;
+$color-tertiary: #ff8147;
+$color-quartenary: #fd7462;
+
+$color-title: $color-primary;
+
+.link {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   color: $color-quartenary;
@@ -40,6 +45,17 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+}
+
+.social {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+
+  img {
+    width: 30px;
+    height: 30px;
   }
 }
 

@@ -26,7 +26,7 @@ export default function BackgroundParticles() {
           bubble: {
             distance: 250,
             duration: 2,
-            opacity: 0.2,
+            opacity: 1,
           },
           push: {
             quantity: 4,
@@ -53,7 +53,7 @@ export default function BackgroundParticles() {
         move: {
           enable: true,
           random: true,
-          speed: 0.6,
+          speed: 1,
           straight: false,
         },
         number: {
@@ -76,7 +76,7 @@ export default function BackgroundParticles() {
           },
           value: {
             min: 2,
-            max: 4
+            max: 5
           },
         },
       },
