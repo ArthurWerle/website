@@ -17,6 +17,7 @@ function App() {
           <p className="title title--large title--spaced">I'm a Software Developer.</p>
           <p className="title">Feel free to contact me.</p>
           <p className="title">Mostly to drink a coffee. ☕</p>
+          <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="arthurwerle" data-color="#FFDD00" data-emoji="" data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
           <div className="social">
             <a target="_blank" rel="noreferrer" title="Instagram" href="https://www.instagram.com/werlearthur/">
               <img src={instagramImg} alt="Instagram"/>
