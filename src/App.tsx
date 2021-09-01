@@ -16,7 +16,7 @@ function App() {
           <p className="title title--large">I'm Arthur Werle.</p> 
           <p className="title title--large title--spaced">I'm a Software Developer.</p>
           <p className="title">Feel free to contact me.</p>
-          <p className="title">Mostly to drink a coffee. ☕</p>
+          <p className="title">Even just to have a coffee ☕ or a beer 🍺.</p>
           <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="arthurwerle" data-color="#FFDD00" data-emoji="" data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
           <div className="social">
             <a target="_blank" rel="noreferrer" title="Instagram" href="https://www.instagram.com/werlearthur/">
@@ -39,48 +39,53 @@ function App() {
       </div>
       <div className="info">
         <div>
-          <p className="title title--spaced">About me 🧑</p> 
-          <p className="paragraph">
-            {personal.aboutMe}
-          </p> 
-        </div>
-        <div>
-          <p className="title title--spaced">Principles 💭</p> 
-          <p className="paragraph">
-            I think as languages as they are.
-            <span className="paragraph--emphasis"> Just tools. </span>
-            So I don't have any problem with working or learning another ones.
-            I'm a visual person, so for now, I don't think about stop working with frontend, but I
-            consider being a full-stack developer.
-            <span className="paragraph--emphasis"> I want to make life easier, happier and simpler to people. </span>
-          </p> 
-        </div>
-        <div>
-          <p className="title title--spaced">Work experience 💻</p> 
-          <div className="jobs">
+          <div>
+            <p className="title title--spaced">About me 🧑</p> 
             <p className="paragraph">
-              Working with Sofware Development since 2018.
-              Currently developing software to  
-              <a className="link" title="CWI Software" target="_blank" rel="noreferrer" href="http://www.cwi.com.br/">@CWI.</a>
-              Also worked at 
-              <a className="link" title="Kunden Systems" target="_blank" rel="noreferrer" href="http://www.kunden.com.br/">@Kunden.</a>
-
-              <p>
-                My sincerely thanks to this two companies which believed on me and gave me the chance to grow..
-              </p>
-              <p>
-                I've worked with React, Typescript, Node.js, Sass, Gulp and many other frameworks and libraries.
-              </p>
-              <p>
-                I've created SPAs and worked on 
-                <a className="link" title="Arezzo" target="_blank" rel="noreferrer" href="http://www.arezzo.com.br/">@Arezzo</a>
-                ecommerce websites which had more than 1 million monthly accesses.
-              </p>
-            </p>
+              {personal.aboutMe}
+            </p> 
           </div>
-          <a className="button" title="Curriculum" href="/arthur-resume.pdf" download target="_blank" rel="noreferrer">
-            <p>Download my resume</p>
-          </a>
+          <div>
+            <p className="title title--spaced">Principles 💭</p> 
+            <p className="paragraph">
+              I think as languages as they are.
+              <span className="paragraph--emphasis"> Just tools. </span>
+              So I don't have any problem with working or learning another ones.
+              I'm a visual person, so for now, I don't think about stop working with frontend, but I
+              consider being a full-stack developer.
+              <span className="paragraph--emphasis"> I want to make life easier, happier and simpler to people. </span>
+            </p> 
+          </div>
+          <div>
+            <p className="title title--spaced">Work experience 💻</p> 
+            <div className="jobs">
+              <p className="paragraph">
+                Currently developing software to
+                <a className="link" title="Arezzo" target="_blank" rel="noreferrer" href="http://www.arezzo.com.br/">@Arezzo</a>
+                ecommerce websites, which have more than 1 million monthly accesses.
+                specially on <a className="link" title="ZZ Mall" target="_blank" rel="noreferrer" href="https://www.zzmall.com.br/">@ZZ Mall.</a> 
+                
+
+                I work as a third-party employee from
+                <a className="link" title="CWI Software" target="_blank" rel="noreferrer" href="http://www.cwi.com.br/">@CWI.</a>
+
+                <p>
+                Also worked at 
+                <a className="link" title="Kunden Systems" target="_blank" rel="noreferrer" href="http://www.kunden.com.br/">@Kunden.</a>
+                </p>
+
+                <p>
+                  My sincerely thanks to this two companies which believed on me and gave me the chance to grow.
+                </p>
+                <p>
+                  Working with Sofware Development since 2018, I've worked with React, Typescript, Node.js, Sass, Gulp and many other frameworks and libraries.
+                </p>
+              </p>
+            </div>
+            <a className="button" title="Curriculum" href="/arthur-resume.pdf" download target="_blank" rel="noreferrer">
+              <p>Download my resume</p>
+            </a>
+          </div>
         </div>
       </div>
       <BackgroundParticles />
