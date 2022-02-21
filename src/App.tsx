@@ -1,11 +1,7 @@
 import React from 'react';
 import { personal } from './assets/static/personal';
 import BackgroundParticles from './components/particles/BackgroundParticles';
-import instagramImg from './assets/images/instagram.svg';
-import linkedinImg from './assets/images/linkedin.svg';
-import githubImg from './assets/images/github.svg';
-import emailImg from './assets/images/email.svg';
-import whatsappImg from './assets/images/whatsapp.svg';
+import SocialButtons from './components/social-buttons';
 
 function App() {
   return (
@@ -17,24 +13,7 @@ function App() {
           <p className="title title--large title--spaced">I'm a Software Developer.</p>
           <p className="title">Feel free to contact me.</p>
           <p className="title">Even just to have a coffee ☕ or a beer 🍺.</p>
-          <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="arthurwerle" data-color="#FFDD00" data-emoji="" data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
-          <div className="social">
-            <a target="_blank" rel="noreferrer" title="Instagram" href="https://www.instagram.com/werlearthur/">
-              <img src={instagramImg} alt="Instagram"/>
-            </a>
-            <a target="_blank" rel="noreferrer" title="Linkedin" href="https://www.linkedin.com/in/arthur-werle-a8635a114/">
-              <img src={linkedinImg} alt="Linkedin"/>
-            </a>
-            <a target="_blank" rel="noreferrer" title="Github" href="https://github.com/ArthurWerle">
-              <img src={githubImg} alt="Github"/>
-            </a>
-            <a target="_blank" rel="noreferrer" title="Email" href="mailto:arthur.werle@gmail.com">
-              <img src={emailImg} alt="Email"/>
-            </a>
-            <a target="_blank" rel="noreferrer" title="Whatsapp" href="https://wa.me/5551991873768?text=Hey there! I just got your number on your website.">
-              <img src={whatsappImg} alt="Whatsapp"/>
-            </a>
-          </div>
+          <SocialButtons />
         </div>
       </div>
       <div className="info">
@@ -48,12 +27,8 @@ function App() {
           <div>
             <p className="title title--spaced">Principles 💭</p> 
             <p className="paragraph">
-              I think as languages as they are.
-              <span className="paragraph--emphasis"> Just tools. </span>
-              So I don't have any problem with working or learning another ones.
-              I'm a visual person, so for now, I don't think about stop working with frontend, but I
-              consider being a full-stack developer.
-              <span className="paragraph--emphasis"> I want to make life easier, happier and simpler to people. </span>
+              {personal.principles}
+              <p className="paragraph--emphasis"> I want to make life easier, happier and simpler to people. </p>
             </p> 
           </div>
           <div>
@@ -78,7 +53,7 @@ function App() {
                   My sincerely thanks to this two companies which believed on me and gave me the chance to grow.
                 </p>
                 <p>
-                  Working with Sofware Development since 2018, I've worked with React, Typescript, Node.js, Sass, Gulp and many other frameworks and libraries.
+                  Working with Sofware Development since 2018, I've worked with React, Typescript, Node.js, Nextjs, Styled Components, Sass, Gulp and many other frameworks and libraries.
                 </p>
               </p>
             </div>
