@@ -1,5 +1,3 @@
-import React from 'react';
-import { personal } from './assets/static/personal';
 import BackgroundParticles from './components/particles/BackgroundParticles';
 import SocialButtons from './components/social-buttons';
 
@@ -19,36 +17,27 @@ function App() {
       <div className="info">
         <div>
           <div>
-            <p className="title title--spaced">About me 🧑</p> 
-            <p className="paragraph">
-              {personal.aboutMe}
-            </p> 
-          </div>
-          <div>
-            <p className="title title--spaced">Principles 💭</p> 
-            <p className="paragraph">
-              {personal.principles}
-              <p className="paragraph--emphasis"> I want to make life easier, happier and simpler to people. </p>
-            </p> 
-          </div>
-          <div>
             <p className="title title--spaced">Work experience 💻</p> 
             <div className="jobs">
               <p className="paragraph">
                 Currently developing software to
-                <a className="link" title="Arezzo" target="_blank" rel="noreferrer" href="http://www.arezzo.com.br/">@Arezzo</a>
+                <a className="link" title="Arezzo" target="_blank" rel="noreferrer" href="http://www.arezzo.com.br/">
+                  @Arezzo
+                </a>
                 ecommerce websites, which have more than 1 million monthly accesses.
-                specially on <a className="link" title="ZZ Mall" target="_blank" rel="noreferrer" href="https://www.zzmall.com.br/">@ZZ Mall.</a> 
-                
 
                 I work as a third-party employee from
-                <a className="link" title="CWI Software" target="_blank" rel="noreferrer" href="http://www.cwi.com.br/">@CWI.</a>
+                <a className="link" title="CWI Software" target="_blank" rel="noreferrer" href="http://www.cwi.com.br/">
+                  @CWI.
+                </a>
 
                 <p>
-                Also worked at 
-                <a className="link" title="Kunden Systems" target="_blank" rel="noreferrer" href="http://www.kunden.com.br/">@Kunden.</a>
+                  Also worked at 
+                  <a className="link" title="Kunden Systems" target="_blank" rel="noreferrer" href="http://www.kunden.com.br/">
+                    @Kunden
+                  </a>
+                  for 2 years.
                 </p>
-
                 <p>
                   My sincerely thanks to this two companies which believed on me and gave me the chance to grow.
                 </p>
