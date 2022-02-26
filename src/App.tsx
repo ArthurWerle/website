@@ -75,7 +75,7 @@ function App() {
               target="_blank"
               rel="noreferrer"
             >
-              <p>Download my resume</p>
+              <p>Download my curriculum</p>
             </a>
           </div>
         </div>
