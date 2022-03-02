@@ -70,12 +70,12 @@ function App() {
             <a
               className="button"
               title="Curriculum"
-              href="/arthur-resume.pdf"
+              href="https://docs.google.com/document/d/1OhR4a5GszUxV390n_TcRV3jQ1hs0hu85lREEF8gho1E/edit?usp=sharing"
               download
               target="_blank"
               rel="noreferrer"
             >
-              <p>Download my resume</p>
+              <p>Download my curriculum</p>
             </a>
           </div>
         </div>
