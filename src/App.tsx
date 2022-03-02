@@ -57,7 +57,7 @@ function App() {
                   for 2 years.
                 </p>
                 <p>
-                  My sincerely thanks to this two companies which believed on me
+                  My sincere thanks to these two companies which believed in me
                   and gave me the chance to grow.
                 </p>
                 <p>
