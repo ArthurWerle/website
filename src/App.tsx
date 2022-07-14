@@ -1,5 +1,5 @@
-import BackgroundParticles from "./components/particles/BackgroundParticles";
-import SocialButtons from "./components/social-buttons";
+import BackgroundParticles from "./components/particles/BackgroundParticles"
+import SocialButtons from "./components/social-buttons"
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
           <p className="title title--large">Hi!👋</p>
           <p className="title title--large">I'm Arthur Werle.</p>
           <p className="title title--large title--spaced">
-            I'm a Software Developer.
+            I'm a Front-end Engineer.
           </p>
           <p className="title">Feel free to contact me.</p>
           <p className="title">Even just to have a coffee ☕ or a beer 🍺.</p>
@@ -82,7 +82,7 @@ function App() {
       </div>
       <BackgroundParticles />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
